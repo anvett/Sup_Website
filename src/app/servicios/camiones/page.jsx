@@ -1,0 +1,76 @@
+"use client";
+
+import HeroImgBackg from "@/components/heroImgBackg/HeroImgBackg";
+import HeroImgText from "@/components/heroImgText/HeroImgText";
+import React from "react";
+import { motion } from "framer-motion";
+import ImageGallery from "@/components/imageGallery/ImageGallery";
+import CallToAction from "@/components/cta/cta";
+import VideoPlayer2 from "@/components/videoPlayer2/VideoPlayer2";
+
+const imageSrc = "/assets/images/servicios/camiones/hero.png";
+const mainText = "Limpieza de Camiones";
+const secondaryText = [
+  "En EcuaCleaner, nos especializamos en proporcionar servicios de limpieza de camiones de alta calidad.",
+  "Garantizamos la satisfacción del cliente a través de un servicio eficiente y amigable con el medio ambiente.",
+  "Nuestro equipo de trabajo está altamente capacitado para brindar un servicio de calidad y eficiente.",
+  "Contamos con los mejores productos y equipos para garantizar la limpieza de tu camión.",
+  "Ofrecemos servicios de limpieza de camiones a domicilio, para tu comodidad y seguridad.",
+];
+
+const images = [
+  {
+    src: "/assets/images/servicios/camiones/camiones1.png",
+    alt: "Limpieza de camiones 1",
+    title: "Imagen 1",
+  },
+  {
+    src: "/assets/images/servicios/camiones/camiones2.png",
+    alt: "Limpieza de camiones 2",
+    title: "Imagen 2",
+  },
+  {
+    src: "/assets/images/servicios/camiones/camiones3.png",
+    alt: "Limpieza de camiones 3",
+    title: "Imagen 3",
+  },
+  {
+    src: "/assets/images/servicios/camiones/camiones4.png",
+    alt: "Limpieza de camiones 4",
+    title: "Imagen 4",
+  },
+];
+
+const videoUrl = "/assets/videos/camiones.mp4";
+
+export default function CarWash() {
+  return (
+    <section className="relative  bg-dark text-center overflow-hidden  ">
+      <HeroImgBackg
+        backgroundImage="/assets/images/servicios/camiones/hero_back.png"
+        mainText="Limpieza de Camiones"
+        secondaryText="Ofrecemos los mejores servicios de limpieza para tu camión."
+        buttonText="Contáctanos"
+      />
+      <div className="py-spacing-5 bg-dark">
+        <HeroImgText imageSrc={imageSrc} mainText={mainText} secondaryText={secondaryText} />
+      </div>
+
+      <div>
+        <ImageGallery title="Galería de Imágenes" images={images} />
+      </div>
+
+      {/* <div className="py-spacing-3 bg-gradient-to-br from-[#000000] to-[#717175]">
+        <VideoPlayer2 videoUrl={videoUrl} />
+      </div> */}
+
+      <div>
+        <CallToAction
+          ctaText="¿Listo para limpiar tu camión?"
+          buttonText="Contáctanos"
+          buttonLink="/contacto"
+        />
+      </div>
+    </section>
+  );
+}

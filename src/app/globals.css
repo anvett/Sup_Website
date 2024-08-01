@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  @apply bg-light;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.btn-custom {
+  @apply transition ease-in duration-300 transform hover:scale-110;
+}
+
+.h1-custom {
+  @apply text-accent text-size-5 font-primary font-bold pb-spacing-2 sm:text-size-7;
+}
+
+.h2-custom {
+  @apply text-primary text-size-3 font-secondary font-semibold pb-spacing-1 pt-spacing-1 sm:text-size-5;
+}
+
+.h3-custom {
+  @apply text-secondary text-size-2 font-secondary font-semibold pb-spacing-1  sm:text-size-4;
+}
+
+.p-custom {
+  @apply text-light text-size-2 font-secondary font-normal pb-spacing-1  sm:text-size-3;
+}
+
+.bg-services {
+  background-image: url('/images/background1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.h1-template {
+  @apply text-accent text-size-7 font-primary font-bold pb-spacing-2 sm:text-size-9;
+}
+
+.h2-template {
+  @apply text-secondary text-size-4 font-secondary font-semibold pb-spacing-1 pt-spacing-1 sm:text-size-6;
+}
+
+.h3-template {
+  @apply text-accent text-size-4 font-secondary font-semibold pb-spacing-1  sm:text-size-5;
+}
+
+.h4-template {
+  @apply text-primary text-size-4 font-secondary font-semibold pb-spacing-1  sm:text-size-5;
+}
+
+.li-template{
+  @apply text-primary text-size-2 font-secondary font-normal pb-spacing-1  sm:text-size-3;
+}
+
+.section-title{
+  @apply font-primary  font-extrabold  mb-6 text-center sm:text-size-8 text-size-6 pb-spacing-3;
+}
+
+.section-subtitle{
+  @apply font-primary text-primary  font-extrabold  mb-6 text-center sm:text-size-6 text-size-4 pb-spacing-2;
+}
+
+.main-button{
+  @apply bg-primary text-light font-bold px-6 py-3 rounded-full btn-custom  hover:bg-accent hover:text-primary
+}
+
+
+/* --------------------------------------------- */
+/* Páginas de servicios */
+/* --------------------------------------------- */
+
+.service-description{
+  @apply font-primary text-light  font-extrabold  mb-6 text-center sm:text-size-6 text-size-4 pb-spacing-2;
+}
+
+.service-items{
+  @apply text-light font-secondary font-normal pl-spacing-2 sm:pl-spacing-4 text-size-1 sm:text-size-3;
+}
+
+/* --------------------------------------------- */
+/* Páginas legales */
+/* --------------------------------------------- */
+
+.section-title-legal{
+  @apply font-primary  font-extrabold  mb-6 text-center sm:text-size-4 text-size-2 pb-spacing-2;
+}
+
+.section-subtitle-legal{
+  @apply font-primary text-primary  font-extrabold  mb-6 text-center sm:text-size-3 text-size-2 ;
+}
+
+.p-custom-legal {
+  @apply text-light text-size-0 font-secondary font-normal pb-spacing-1  sm:text-size-1;
+}
+
+
+/* --------------------------------------------- */
+/* Contacto */
+/* --------------------------------------------- */
+
+.li-template-contact{
+  @apply text-white text-size-1 font-secondary font-normal pb-spacing-1  sm:text-size-2 text-left;
+}
+
+.p-custom-contact {
+  @apply text-light text-size-0 font-secondary font-normal   sm:text-size-1;
+}
