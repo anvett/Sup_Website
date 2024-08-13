@@ -99,11 +99,7 @@ body {
 /* --------------------------------------------- */
 
 .service-description{
-<<<<<<< HEAD
-  @apply font-primary text-light  font-extrabold  mb-6 text-center sm:text-size-6 text-size-4 pb-spacing-2;
-=======
   @apply font-primary text-dark  font-extrabold  mb-6 text-center sm:text-size-6 text-size-4 pb-spacing-2;
->>>>>>> a4e8b9a (web site created, pages, components updated, credit simulator created)
 }
 
 .service-items{
@@ -119,19 +115,11 @@ body {
 }
 
 .section-subtitle-legal{
-<<<<<<< HEAD
-  @apply font-primary text-primary  font-extrabold  mb-6 text-center sm:text-size-3 text-size-2 ;
-}
-
-.p-custom-legal {
-  @apply text-light text-size-0 font-secondary font-normal pb-spacing-1  sm:text-size-1;
-=======
   @apply font-primary text-light  font-extrabold  mb-6 text-center sm:text-size-3 text-size-2 ;
 }
 
 .p-custom-legal {
   @apply text-dark text-size-0 font-secondary font-normal pb-spacing-1  sm:text-size-1;
->>>>>>> a4e8b9a (web site created, pages, components updated, credit simulator created)
 }
 
 
@@ -145,9 +133,6 @@ body {
 
 .p-custom-contact {
   @apply text-light text-size-0 font-secondary font-normal   sm:text-size-1;
-<<<<<<< HEAD
-}
-=======
 }
 
 /* --------------------------------------------- */
@@ -158,4 +143,3 @@ body {
   @apply bg-gradient-to-br from-primary to-accent;
 }
 
->>>>>>> a4e8b9a (web site created, pages, components updated, credit simulator created)

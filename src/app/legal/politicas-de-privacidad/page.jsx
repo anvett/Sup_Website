@@ -3,17 +3,10 @@ import React from "react";
 export default function PoliticasDePrivacidad() {
   return (
     <main>
-<<<<<<< HEAD
-      <section className="relative pb-spacing-4 px-spacing-4 sm:px-spacing-28 bg-dark text-justify overflow-hidden">
-        <h1 className="py-spacing-3 section-title-legal text-primary">Políticas de Privacidad</h1>
-        <p className="p-custom-legal">
-          En EcuaCleaner, nos comprometemos a proteger su privacidad. Esta política de privacidad describe
-=======
       <section className="relative pb-spacing-4 px-spacing-4 sm:px-spacing-28 bg-gradient-primary text-justify overflow-hidden">
         <h1 className="py-spacing-3 section-title-legal text-light">Políticas de Privacidad</h1>
         <p className="p-custom-legal">
           En COAC SUP LTDA., nos comprometemos a proteger su privacidad. Esta política de privacidad describe
->>>>>>> a4e8b9a (web site created, pages, components updated, credit simulator created)
           cómo recopilamos, usamos y compartimos su información personal.
         </p>
 
@@ -67,13 +60,8 @@ export default function PoliticasDePrivacidad() {
         </p>
         <p className="p-custom-legal pb-spacing-3">
           Email:{" "}
-<<<<<<< HEAD
-          <a href="mailto:info@ecuacleaner.com" className="text-accent hover:underline">
-            info@ecuacleaner.com
-=======
           <a href="mailto:info@coacsup.com" className="text-light hover:underline">
             info@coacsup.com
->>>>>>> a4e8b9a (web site created, pages, components updated, credit simulator created)
           </a>
           
         </p>

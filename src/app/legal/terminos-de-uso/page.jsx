@@ -3,17 +3,10 @@ import React from "react";
 export default function TerminosDeUso() {
   return (
     <main>
-<<<<<<< HEAD
-      <section className="relative pb-spacing-4 px-spacing-4 sm:px-spacing-28 bg-dark text-justify overflow-hidden">
-        <h1 className="py-spacing-3 section-title-legal text-primary">Términos de Uso</h1>
-        <p className="p-custom-legal">
-          Bienvenido a EcuaCleaner. Al utilizar nuestro sitio web, usted acepta cumplir con los siguientes
-=======
       <section className="relative pb-spacing-4 px-spacing-4 sm:px-spacing-28 bg-gradient-primary text-justify overflow-hidden">
         <h1 className="py-spacing-3 section-title-legal text-light">Términos de Uso</h1>
         <p className="p-custom-legal">
           Bienvenido a COAC SUP LTDA. Al utilizar nuestro sitio web, usted acepta cumplir con los siguientes
->>>>>>> a4e8b9a (web site created, pages, components updated, credit simulator created)
           términos y condiciones de uso.
         </p>
 
@@ -27,11 +20,7 @@ export default function TerminosDeUso() {
         <h2 className="pt-spacing-2 section-subtitle-legal">Propiedad Intelectual</h2>
         <p className="p-custom-legal">
           Todo el contenido presente en este sitio web, incluidos textos, gráficos, logotipos, iconos,
-<<<<<<< HEAD
-          imágenes, clips de audio y software, es propiedad de EcuaCleaner o de sus proveedores de
-=======
           imágenes, clips de audio y software, es propiedad de COAC SUP LTDA. o de sus proveedores de
->>>>>>> a4e8b9a (web site created, pages, components updated, credit simulator created)
           contenido y está protegido por las leyes de derechos de autor internacionales.
         </p>
 
@@ -43,11 +32,7 @@ export default function TerminosDeUso() {
 
         <h2 className="pt-spacing-2 section-subtitle-legal">Limitación de Responsabilidad</h2>
         <p className="p-custom-legal">
-<<<<<<< HEAD
-          En la medida permitida por la ley, EcuaCleaner no será responsable de ninguna pérdida o daño
-=======
           En la medida permitida por la ley, COAC SUP LTDA. no será responsable de ninguna pérdida o daño
->>>>>>> a4e8b9a (web site created, pages, components updated, credit simulator created)
           directo, indirecto, incidental, consecuente o punitivo que surja de su acceso o uso de este
           sitio web.
         </p>
@@ -71,13 +56,8 @@ export default function TerminosDeUso() {
         </p>
         <p className="p-custom-legal ">
           Email:{" "}
-<<<<<<< HEAD
-          <a href="mailto:info@ecuacleaner.com" className="text-accent hover:underline">
-            info@ecuacleaner.com
-=======
           <a href="mailto:info@coacsup.com" className="text-light hover:underline">
             info@coacsup.com
->>>>>>> a4e8b9a (web site created, pages, components updated, credit simulator created)
           </a>
         </p>
       </section>
