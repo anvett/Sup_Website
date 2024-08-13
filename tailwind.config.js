@@ -20,9 +20,15 @@ module.exports = {
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
+<<<<<<< HEAD
         'primary': '#BE2A72',  
         'secondary': '#902422',  
         'terciary': '#717175',  
+=======
+        'primary': '#545D94',  
+        'secondary': '#FFF7FF',  
+        'terciary': '#B6C295',  
+>>>>>>> a4e8b9a (web site created, pages, components updated, credit simulator created)
         'accent': '#C2C3C8', 
         'light': '#ffffff',  
         'dark': '#000000',  
@@ -32,7 +38,11 @@ module.exports = {
       },
       fontFamily: {
         'primary': ['Montserrat', 'sans-serif'],
+<<<<<<< HEAD
         'secondary': ['Lato', 'sans-serif'],
+=======
+        'secondary': ['Montserrat', 'sans-serif'],
+>>>>>>> a4e8b9a (web site created, pages, components updated, credit simulator created)
       },
       fontSize: {
         'size-0': '0.75rem',
@@ -51,6 +61,14 @@ module.exports = {
         'size-13': '4rem',
         'size-14': '4.25rem',
         'size-15': '4.5rem',
+<<<<<<< HEAD
+=======
+        'size-16': '4.75rem',
+        'size-17': '5rem',
+        'size-18': '5.25rem',
+        'size-19': '5.5rem',
+        'size-20': '5.75rem',
+>>>>>>> a4e8b9a (web site created, pages, components updated, credit simulator created)
       },
       spacing: {
         'spacing-1': '1rem',

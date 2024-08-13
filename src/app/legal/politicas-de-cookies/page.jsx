@@ -3,10 +3,17 @@ import React from "react";
 const PoliticasDeCookies = () => {
   return (
     <main>
+<<<<<<< HEAD
       <section className="relative pb-spacing-4 px-spacing-4 sm:px-spacing-28 bg-dark text-justify overflow-hidden">
         <h1 className="py-spacing-3 section-title-legal text-primary">Política de Cookies</h1>
         <p className="p-custom-legal">
           En EcuaCleaner, utilizamos cookies para mejorar tu experiencia en nuestro sitio web. Esta
+=======
+      <section className="relative pb-spacing-4 px-spacing-4 sm:px-spacing-28 bg-gradient-primary text-justify overflow-hidden">
+        <h1 className="py-spacing-3 section-title-legal text-light">Política de Cookies</h1>
+        <p className="p-custom-legal">
+          En COAC SUP LTDA., utilizamos cookies para mejorar tu experiencia en nuestro sitio web. Esta
+>>>>>>> a4e8b9a (web site created, pages, components updated, credit simulator created)
           política de cookies explica qué son las cookies, cómo las utilizamos y cómo puedes gestionar
           tus preferencias de cookies.
         </p>
@@ -52,8 +59,13 @@ const PoliticasDeCookies = () => {
         <h2 className="pt-spacing-2 section-subtitle-legal">Contacto</h2>
         <p className="p-custom-legal pb-spacing-3">
           Si tienes alguna pregunta sobre nuestra política de cookies, puedes contactarnos a través de{" "}
+<<<<<<< HEAD
           <a href="mailto:info@ecuacleaner.com" className="text-accent hover:underline">
             info@ecuacleaner.com
+=======
+          <a href="mailto:info@coacsup.com" className="text-light hover:underline">
+            info@coacsup.com
+>>>>>>> a4e8b9a (web site created, pages, components updated, credit simulator created)
           </a>
           .
         </p>
@@ -63,3 +75,7 @@ const PoliticasDeCookies = () => {
 };
 
 export default PoliticasDeCookies;
+<<<<<<< HEAD
+=======
+
+>>>>>>> a4e8b9a (web site created, pages, components updated, credit simulator created)
