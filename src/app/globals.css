@@ -50,7 +50,7 @@ body {
 }
 
 .p-custom {
-  @apply text-light text-size-2 font-secondary font-normal pb-spacing-1  sm:text-size-3;
+  @apply text-dark text-size-2 font-secondary font-normal pb-spacing-1  sm:text-size-3 px-spacing-1;
 }
 
 .bg-services {
@@ -86,7 +86,7 @@ body {
 }
 
 .section-subtitle{
-  @apply font-primary text-primary  font-extrabold  mb-6 text-center sm:text-size-6 text-size-4 pb-spacing-2;
+  @apply font-primary  font-extrabold  mb-6 text-center sm:text-size-6 text-size-4 ;
 }
 
 .main-button{
@@ -143,3 +143,10 @@ body {
   @apply bg-gradient-to-br from-primary to-accent;
 }
 
+/* --------------------------------------------- */
+/* NavBar */
+/* --------------------------------------------- */
+
+.nav-link {
+  @apply  hover:text-accent active:text-terciary;
+}

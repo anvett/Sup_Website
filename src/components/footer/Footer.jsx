@@ -99,10 +99,10 @@ export default function Footer() {
             height={100}
             className="fill-current"
           />
-          <p className="text-primary font-extrabold text-size-4 font-primary">
+          <p className="text-primary font-extrabold text-size-3 font-primary sm:text-size-4">
             Cooperativa de Ahorro y Crédito SUP
           </p>
-          <p className="text-primary font-semibold text-size-3 font-primary pt-spacing-2">
+          <p className="text-primary font-semibold text-size-2 font-primary pt-spacing-2 sm:text-size-3">
             Brindando soluciones financieras a nuestros socios
           </p>
         </aside>
