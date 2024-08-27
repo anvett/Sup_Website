@@ -21,7 +21,7 @@ export default function CreditoConsumoEspecial() {
     "Opciones de pago adaptadas a tus necesidades específicas",
   ];
 
-  const imageSource = "/assets/images/servicios/consumo_especial/benefits.png";
+  const imageSource = "/assets/images/servicios/consumo_especial/benefits.jpg";
 
   //----------------------------------------------
   // Service Details
@@ -59,7 +59,7 @@ export default function CreditoConsumoEspecial() {
   return (
     <>
       <HeroImgBackg
-        backgroundImage="/assets/images/servicios/consumo_especial/hero_back.jpg"
+        backgroundImage="/assets/images/servicios/consumo_especial/hero_back.png"
         mainText="Crédito de Consumo Especial"
         secondaryText="El Crédito de Consumo Especial de COAC SUP LTDA. está diseñado para ofrecerte condiciones preferenciales y flexibilidad, adaptándose a tus necesidades financieras específicas."
         buttonText="Solicita tu Crédito"

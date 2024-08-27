@@ -128,11 +128,15 @@ body {
 /* --------------------------------------------- */
 
 .li-template-contact{
-  @apply text-white text-size-1 font-secondary font-normal pb-spacing-1  sm:text-size-2 text-left;
+  @apply text-primary text-size-1 font-secondary font-normal pb-spacing-1  sm:text-size-2 text-left;
 }
 
 .p-custom-contact {
   @apply text-light text-size-0 font-secondary font-normal   sm:text-size-1;
+}
+
+.section-subtitle-contact{
+  @apply font-primary text-primary  font-extrabold  mb-6 text-center sm:text-size-3 text-size-2 ;
 }
 
 /* --------------------------------------------- */

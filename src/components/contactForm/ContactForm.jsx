@@ -204,8 +204,8 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto p-6 bg-gradient-to-br from-[#000000] to-[#717175] rounded-lg shadow-lg">
-      <h2 className="section-subtitle mb-4 text-white">Contáctanos</h2>
+    <div className="max-w-lg mx-auto p-6 bg-light rounded-lg shadow-lg">
+      <h2 className="section-subtitle mb-4 text-primary">Contáctanos</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Nombre" required
           className="input input-bordered w-full max-w-xs bg-light text-primary"
@@ -217,15 +217,15 @@ const ContactForm = () => {
           className="input input-bordered w-full max-w-xs bg-light text-primary"
         />
         <textarea name="message" value={formData.message} onChange={handleChange} placeholder="Mensaje" required
-          className="textarea textarea-bordered w-full max-w-xs bg-light text-dark"
+          className="textarea textarea-bordered w-full max-w-xs bg-light text-primary"
         ></textarea>
         
-        <button type="submit" className="btn btn-primary w-full">Preparar Mensaje</button>
+        <button type="submit" className="btn main-button w-full">Preparar Mensaje</button>
       </form>
       {linkReady && (
         <div className="mt-4">
           <p className='text-light'>Tu mensaje está listo para ser enviado:</p>
-          <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="bg-primary btn btn-primary w-full">Enviar Mensaje a WhatsApp</a>
+          <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className=" btn main-button w-full">Enviar Mensaje a WhatsApp</a>
         </div>
       )}
     </div>

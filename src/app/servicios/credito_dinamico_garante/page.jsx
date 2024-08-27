@@ -59,7 +59,7 @@ export default function CreditoConsumoDinamicoGarante() {
   return (
     <>
       <HeroImgBackg
-        backgroundImage="/assets/images/servicios/credito_dinamico_garante/hero_back.jpg"
+        backgroundImage="/assets/images/servicios/credito_dinamico_garante/hero_back.png"
         mainText="Crédito de Consumo Dinámico con Garante"
         secondaryText="El Crédito de Consumo Dinámico con Garante de COAC SUP LTDA. te permite acceder a montos mayores y obtener mejores condiciones, respaldado por un garante solvente."
         buttonText="Solicita tu Crédito"

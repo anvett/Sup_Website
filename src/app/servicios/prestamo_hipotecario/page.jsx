@@ -21,7 +21,7 @@ export default function PrestamoHipotecario() {
     "Facilidad en la aprobación con requisitos accesibles",
   ];
 
-  const imageSource = "/assets/images/servicios/prestamo_hipotecario/benefits.png";
+  const imageSource = "/assets/images/servicios/prestamo_hipotecario/benefits.jpg";
 
   //----------------------------------------------
   // Service Details
@@ -59,7 +59,7 @@ export default function PrestamoHipotecario() {
   return (
     <>
       <HeroImgBackg
-        backgroundImage="/assets/images/servicios/prestamo_hipotecario/hero_back.jpg"
+        backgroundImage="/assets/images/servicios/prestamo_hipotecario/hero_back.png"
         mainText="Préstamo Hipotecario"
         secondaryText="Con el Préstamo Hipotecario de COAC SUP LTDA., puedes financiar la compra de tu hogar con condiciones favorables y el respaldo de una cooperativa confiable."
         buttonText="Solicita tu Préstamo"

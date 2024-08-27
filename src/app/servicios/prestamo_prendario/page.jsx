@@ -44,7 +44,7 @@ export default function PrestamoPrendario() {
     "Cumplir con la evaluación crediticia de la cooperativa",
   ];
 
-  const imageSrc = "/assets/images/servicios/prestamo_prendario/details.png";
+  const imageSrc = "/assets/images/servicios/prestamo_prendario/details.jpg";
 
   //----------------------------------------------
   // CTA Section
@@ -59,7 +59,7 @@ export default function PrestamoPrendario() {
   return (
     <>
       <HeroImgBackg
-        backgroundImage="/assets/images/servicios/prestamo_prendario/hero_back.jpg"
+        backgroundImage="/assets/images/servicios/prestamo_prendario/hero_back.png"
         mainText="Préstamo Especial Prendario"
         secondaryText="El Préstamo Especial Prendario de COAC SUP LTDA. te permite acceder a crédito de manera rápida y segura, utilizando bienes como garantía."
         buttonText="Solicita tu Préstamo"

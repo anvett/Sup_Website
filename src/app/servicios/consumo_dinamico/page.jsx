@@ -21,7 +21,7 @@ export default function CreditoConsumoDinamico() {
     "Opción de ampliación de crédito sin complicaciones",
   ];
 
-  const imageSource = "/assets/images/servicios/consumo_dinamico/grow.jpg";
+  const imageSource = "/assets/images/servicios/consumo_dinamico/dinero1.jpg";
 
   //----------------------------------------------
   // Service Details

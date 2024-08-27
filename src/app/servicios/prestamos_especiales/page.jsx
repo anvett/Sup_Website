@@ -59,7 +59,7 @@ export default function PrestamosEspeciales() {
   return (
     <>
       <HeroImgBackg
-        backgroundImage="/assets/images/servicios/prestamos_especiales/hero_back.jpg"
+        backgroundImage="/assets/images/servicios/prestamos_especiales/hero_back.png"
         mainText="Préstamos Especiales"
         secondaryText="Con los Préstamos Especiales de COAC SUP LTDA., puedes acceder a soluciones financieras diseñadas a medida para cubrir necesidades específicas con condiciones favorables."
         buttonText="Solicita tu Préstamo"
