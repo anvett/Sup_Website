@@ -38,7 +38,7 @@ export default function Footer() {
             href="/servicios/prestamos_especiales"
             className="text-light font-semibold link link-hover"
           >
-            Préstamos especiales
+            Préstamos especiales con 2 garantes
           </Link>
           <Link
             href="/servicios/prestamo_prendario"
@@ -50,7 +50,7 @@ export default function Footer() {
             href="/servicios/prestamo_hipotecario"
             className="text-light font-semibold link link-hover"
           >
-            Préstamo especial hipotecario
+            Préstamo especial con garantía hipotecaria
           </Link>
         </div>
 
@@ -109,7 +109,7 @@ export default function Footer() {
         <nav>
           <h6 className="footer-title text-size-3 text-primary font-primary">Social</h6>
           <div className="grid grid-flow-col gap-4">
-            <Link href="https://twitter.com">
+            <Link href="https://www.instagram.com/coac.sup.ltda/">
               <Image
                 src="/assets/icons/instagram.png"
                 alt="Instagram"
@@ -118,7 +118,7 @@ export default function Footer() {
                 className="fill-current"
               />
             </Link>
-            <Link href="https://youtube.com">
+            <Link href="https://www.facebook.com/profile.php?id=100094064164265&mibextid=ZbWKwL">
               <Image
                 src="/assets/icons/facebook.png"
                 alt="Facebook"
@@ -127,7 +127,7 @@ export default function Footer() {
                 className="fill-current"
               />
             </Link>
-            <Link href="https://facebook.com">
+            {/* <Link href="https://facebook.com">
               <Image
                 src="/assets/images/logo.png"
                 alt="Digital Card"
@@ -135,7 +135,7 @@ export default function Footer() {
                 height={40}
                 className="fill-current"
               />
-            </Link>
+            </Link> */}
           </div>
         </nav>
       </footer>

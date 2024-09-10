@@ -29,9 +29,10 @@ export default function CreditoConsumoEspecial() {
 
   const title = "Información Importante sobre el Crédito de Consumo Especial";
   const features = [
-    "Tasa de interés preferencial para socios destacados",
-    "Plazos flexibles y opciones de pago personalizadas",
-    "Montos desde $5,000 hasta $100,000",
+    "Tasa de interés competitiva del 13% anual",
+    "Plazos flexibles hasta 48 meses",
+    "Montos hasta $15,000",
+    "Producto especial para socios que ahorran: Doble del ahorro vista y certificados de aportación",
     "Evaluación y aprobación con atención personalizada",
     "Disponibilidad inmediata tras la aprobación",
     "Opciones exclusivas para la ampliación del crédito",
@@ -52,7 +53,7 @@ export default function CreditoConsumoEspecial() {
 
   const ctaText = "¿Necesitas un crédito especial adaptado a tus necesidades específicas?";
   const buttonText = "Solicita tu Crédito Especial";
-  const buttonLink = "/solicitar-credito-consumo-especial";
+  const buttonLink = "/contacto";
 
   //----------------------------------------------
 

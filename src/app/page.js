@@ -47,7 +47,7 @@ export default function Home() {
     },
     {
       icon: "assets/images/servicios/prestamo_hipotecario.png",
-      title: "Préstamo Especial Hipotecario",
+      title: "Préstamo Especial con Garantía Hipotecaria",
       description: "Accede a nuestros préstamos especiales hipotecarios con plazos largos y tasas atractivas para asegurar tu futuro.",
       link: "/servicios/prestamo_hipotecario",
     },
@@ -95,7 +95,7 @@ export default function Home() {
   ];
   
 
-  const videoUrl = "/assets/videos/servicios_financieros.mp4";
+  const videoUrl = "/assets/videos/coacsup_video.mp4";
 
   //----------------------------------------------
   // Beneficios y valores de la cooperativa

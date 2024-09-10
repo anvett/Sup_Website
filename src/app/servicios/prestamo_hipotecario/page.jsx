@@ -10,12 +10,11 @@ export default function PrestamoHipotecario() {
   // Benefits Section
   //----------------------------------------------
 
-  const benefitsTitle = "Beneficios del Préstamo Hipotecario";
+  const benefitsTitle = "Beneficios del Préstamo de Consumo Especial con Garantía Hipotecaria";
 
   const benefitsList = [
     "Tasas de interés competitivas y a largo plazo",
-    "Plazos extendidos de hasta 20 años",
-    "Financiamiento de hasta el 80% del valor de la propiedad",
+    "Plazos extendidos de hasta 144 meses",
     "Asesoría especializada durante todo el proceso",
     "Opción de pagos anticipados sin penalización",
     "Facilidad en la aprobación con requisitos accesibles",
@@ -27,11 +26,11 @@ export default function PrestamoHipotecario() {
   // Service Details
   //----------------------------------------------
 
-  const title = "Información Esencial sobre el Préstamo Hipotecario";
+  const title = "Información Esencial sobre el Préstamo de Consumo Especial con Garantía Hipotecaria";
   const features = [
-    "Tasa de interés fija o variable según tu preferencia",
-    "Plazos de hasta 20 años para mayor comodidad",
-    "Financiamiento desde $20,000 hasta $300,000",
+    "Tasa de interés competitiva del 11% anual",
+    "Financiamiento hasta $50,000",
+    "Encaje del 5% sobre el monto solicitado",
     "Evaluación rápida y transparente del valor de la propiedad",
     "Opción de pago anticipado sin penalización",
     "Asesoría personalizada para elegir la mejor opción de crédito",
@@ -50,9 +49,9 @@ export default function PrestamoHipotecario() {
   // CTA Section
   //----------------------------------------------
 
-  const ctaText = "¿Listo para adquirir tu hogar? Obtén el financiamiento que necesitas con nuestro Préstamo Hipotecario.";
-  const buttonText = "Solicita tu Préstamo Hipotecario";
-  const buttonLink = "/solicitar-prestamo-hipotecario";
+  const ctaText = "¿Listo para adquirir tu hogar? Obtén el financiamiento que necesitas con nuestro Préstamo de Consumo Especial con Garantía Hipotecaria.";
+  const buttonText = "¡Solicita tu Préstamo Ahora!";
+  const buttonLink = "/contacto";
 
   //----------------------------------------------
 
@@ -60,8 +59,8 @@ export default function PrestamoHipotecario() {
     <>
       <HeroImgBackg
         backgroundImage="/assets/images/servicios/prestamo_hipotecario/hero_back.png"
-        mainText="Préstamo Hipotecario"
-        secondaryText="Con el Préstamo Hipotecario de COAC SUP LTDA., puedes financiar la compra de tu hogar con condiciones favorables y el respaldo de una cooperativa confiable."
+        mainText="Préstamo de Consumo Especial con Garantía Hipotecaria"
+        secondaryText="Con el de Consumo Especial con Garantía Hipotecaria de COAC SUP LTDA., puedes financiar la compra de tu hogar con condiciones favorables y el respaldo de una cooperativa confiable."
         buttonText="Solicita tu Préstamo"
       />
       <Benefits benefitsTitle={benefitsTitle} benefits={benefitsList} imageSrc={imageSource} />

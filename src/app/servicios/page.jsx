@@ -42,7 +42,7 @@ export default function ServicesPage() {
     },
     {
       icon: <FaHome size={50} />, // Préstamo Hipotecario
-      title: "Préstamo Hipotecario",
+      title: "Préstamo Especial con Garantía Hipotecaria",
       description: "Ofrecemos préstamos hipotecarios con condiciones favorables para que puedas adquirir tu vivienda o inmueble.",
       link: "/servicios/prestamo_hipotecario",
       linkText: "Ver más",
@@ -56,7 +56,7 @@ export default function ServicesPage() {
     },
     {
       icon: <FaShieldAlt size={50} />, // Préstamos Especiales
-      title: "Préstamos Especiales",
+      title: "Préstamos Especiales con 2 Garantes",
       description: "Descubre nuestros préstamos especiales diseñados para situaciones particulares, con condiciones exclusivas.",
       link: "/servicios/prestamos_especiales",
       linkText: "Ver más",

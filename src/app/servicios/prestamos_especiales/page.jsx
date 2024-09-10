@@ -29,9 +29,11 @@ export default function PrestamosEspeciales() {
 
   const title = "Detalles Claves sobre los Préstamos Especiales";
   const features = [
-    "Tasa de interés adaptable a la situación del socio",
-    "Montos desde $5,000 hasta $150,000 según la necesidad",
-    "Plazos flexibles de hasta 10 años",
+    "Tasa de interés competitiva del 13% anual",
+    "Montos hasta $25,000 según la necesidad",
+    "Plazos flexibles de hasta 60 meses",
+    "Encaje del 10% sobre el monto solicitado",
+    "Se requiere la garantía de dos pesonas",
     "Evaluación rápida y adaptada a casos especiales",
     "Condiciones personalizadas para cada tipo de préstamo",
     "Asesoría continua y confidencial durante todo el proceso",
@@ -42,6 +44,7 @@ export default function PrestamosEspeciales() {
     "Presentar identificación, comprobante de ingresos, y justificar la necesidad del préstamo",
     "Historial crediticio en buen estado",
     "Cumplir con la evaluación crediticia especial de la cooperativa",
+    "Contar con la garantía de dos personas con buen score crediticio.",
   ];
 
   const imageSrc = "/assets/images/servicios/prestamos_especiales/details.png";
@@ -52,7 +55,7 @@ export default function PrestamosEspeciales() {
 
   const ctaText = "¿Tienes una necesidad específica? Nuestros Préstamos Especiales están diseñados para ayudarte.";
   const buttonText = "Solicita tu Préstamo Especial";
-  const buttonLink = "/solicitar-prestamos-especiales";
+  const buttonLink = "/contacto";
 
   //----------------------------------------------
 
@@ -60,7 +63,7 @@ export default function PrestamosEspeciales() {
     <>
       <HeroImgBackg
         backgroundImage="/assets/images/servicios/prestamos_especiales/hero_back.png"
-        mainText="Préstamos Especiales"
+        mainText="Préstamos Especiales 2 Garantes"
         secondaryText="Con los Préstamos Especiales de COAC SUP LTDA., puedes acceder a soluciones financieras diseñadas a medida para cubrir necesidades específicas con condiciones favorables."
         buttonText="Solicita tu Préstamo"
       />

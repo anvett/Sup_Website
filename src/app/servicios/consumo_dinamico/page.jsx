@@ -29,9 +29,10 @@ export default function CreditoConsumoDinamico() {
 
   const title = "Detalles Claves del Crédito de Consumo Dinámico";
   const features = [
-    "Tasa de interés variable ajustada a tus necesidades",
-    "Plazos flexibles y adaptables",
-    "Montos desde $1,000 hasta $70,000",
+    "Tasa de interés competitiva del 13% anual",
+    "Plazos flexibles de hasta 4 años",
+    "Montos hasta $5,000",
+    "Producto especial para socios que ahorran: Doble del ahorro vista y certificados de aportación",
     "Ajustes y ampliaciones según el comportamiento de pago",
     "Sin necesidad de justificar el destino de los fondos",
     "Acceso a fondos adicionales con revisiones periódicas",
@@ -52,7 +53,7 @@ export default function CreditoConsumoDinamico() {
 
   const ctaText = "¿Preparado para aprovechar la flexibilidad financiera que necesitas?";
   const buttonText = "Solicita tu Crédito Dinámico";
-  const buttonLink = "/solicitar-credito-consumo-dinamico";
+  const buttonLink = "/contacto";
 
   //----------------------------------------------
 

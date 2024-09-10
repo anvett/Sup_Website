@@ -20,7 +20,7 @@ const ContactInfo = () => {
         </li>
         <li className="flex items-center">
           <FaClock className="section-subtitle-contact mr-5" />
-          <span className='li-template-contact'>Lunes - Viernes: 9 AM - 5 PM</span>
+          <span className='li-template-contact'>Lunes - Viernes: 8:00 - 16:30 </span>
         </li>
       </ul>
     </div>

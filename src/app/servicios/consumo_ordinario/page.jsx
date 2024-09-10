@@ -30,9 +30,10 @@ export default function CreditoConsumo() {
 
   const title = "Información Importante sobre el Crédito de Consumo Ordinario";
   const features = [
-    "Tasa de interés competitiva del 12% anual",
-    "Plazos flexibles de hasta 5 años",
-    "Montos desde $500 hasta $50,000",
+    "Tasa de interés competitiva del 13% anual",
+    "Plazos flexibles de hasta 2 años",
+    "Montos desde $2,000",
+    "Encaje del 10% sobre el monto solicitado",
     "Proceso de aprobación rápido y sencillo",
     "Sin necesidad de justificar el destino de los fondos",
     "Disponibilidad inmediata de los fondos tras la aprobación",
@@ -53,7 +54,7 @@ export default function CreditoConsumo() {
 
   const ctaText = "¿Listo para dar el siguiente paso hacia tus metas financieras?";
   const buttonText = "Solicita tu Crédito Ahora";
-  const buttonLink = "/solicitar-credito-consumo-ordinario";
+  const buttonLink = "/contacto";
 
   //----------------------------------------------
 

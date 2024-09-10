@@ -26,7 +26,7 @@ const faqData = [
   },
   {
     question: "¿Cuánto de puntaje mínimo en el buró debo tener para acceder al crédito?",
-    answer: "El puntaje mínimo en el buró de crédito necesario para acceder a un crédito en COAC SUP LTDA. depende del tipo de crédito y la política interna de la cooperativa. Te recomendamos acercarte a una de nuestras oficinas para una evaluación personalizada.",
+    answer: "El puntaje mínimo en el buró de crédito necesario para acceder a un crédito en COAC SUP LTDA. depende del tipo de crédito y la política interna de la cooperativa. Contamos con la Matríz para atención al socio.",
   },
   {
     question: "¿Sólo a socios es el crédito?",

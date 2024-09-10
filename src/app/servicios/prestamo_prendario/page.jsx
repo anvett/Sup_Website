@@ -29,9 +29,10 @@ export default function PrestamoPrendario() {
 
   const title = "Detalles del Préstamo Especial Prendario";
   const features = [
-    "Tasa de interés fija y competitiva",
-    "Montos desde $1,000 hasta $50,000 según el valor de la prenda",
-    "Plazos de hasta 36 meses con posibilidad de renovación",
+    "Tasa de interés competitiva del 13% anual",
+    "Montos hasta $30,000 según el valor de la prenda",
+    "Plazos de hasta 60 meses con posibilidad de renovación",
+    "Encaje del 5% sobre el monto solicitado",
     "Proceso de aprobación rápido basado en la evaluación de la prenda",
     "Opción de recuperar la prenda al finalizar el préstamo",
     "Asesoría personalizada durante el proceso de evaluación",
@@ -52,7 +53,7 @@ export default function PrestamoPrendario() {
 
   const ctaText = "¿Necesitas liquidez rápida? Obtén un préstamo con garantía prendaria de forma ágil y segura.";
   const buttonText = "Solicita tu Préstamo Prendario";
-  const buttonLink = "/solicitar-prestamo-prendario";
+  const buttonLink = "/contacto";
 
   //----------------------------------------------
 

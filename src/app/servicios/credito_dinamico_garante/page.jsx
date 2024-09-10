@@ -19,6 +19,7 @@ export default function CreditoConsumoDinamicoGarante() {
     "Flexibilidad en los plazos y términos",
     "Posibilidad de negociar condiciones más favorables",
     "Asesoramiento personalizado durante todo el proceso",
+    
   ];
 
   const imageSource = "/assets/images/servicios/credito_dinamico_garante/benefits.png";
@@ -29,9 +30,10 @@ export default function CreditoConsumoDinamicoGarante() {
 
   const title = "Información Clave sobre el Crédito de Consumo Dinámico con Garante";
   const features = [
-    "Tasa de interés competitiva con respaldo de garantía",
-    "Plazos flexibles y adaptados a tus necesidades",
-    "Montos desde $2,000 hasta $80,000",
+    "Tasa de interés competitiva del 13% anual",
+    "Plazos flexibles hasta 4 años",
+    "Montos hasta $10,000",
+    "Encaje del 10% sobre el monto solicitado",
     "Proceso de aprobación rápido con respaldo de un garante",
     "Mayor posibilidad de aprobación con un garante solvente",
     "Oportunidad de negociar mejores condiciones de crédito",
@@ -52,7 +54,7 @@ export default function CreditoConsumoDinamicoGarante() {
 
   const ctaText = "¿Tienes un garante que te respalde? Obtén mejores condiciones con nuestro crédito dinámico.";
   const buttonText = "Solicita tu Crédito con Garante";
-  const buttonLink = "/solicitar-credito-consumo-dinamico-garante";
+  const buttonLink = "/contacto";
 
   //----------------------------------------------
 
